@@ -1,0 +1,14 @@
+{
+  "name": "typescript-project",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "https": "parcel --https",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.0",
+    "typescript": "^4.9.3"
+  }
+}
