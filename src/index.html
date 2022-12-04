@@ -4,9 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Currency Converter</title>
   </head>
   <body>
-    <script src="../dist/greeter.js"></script>
+    <h1>Currency Converter</h1>
+    <p>Select currencies from the dropdowns below:</p>
+    <form>
+      <div>
+        <label for="from">From:</label>
+        <select name="from" id="from">
+          <option value="EUR">EUR</option>
+          <option value="USD">USD</option>
+          <option value="GBP">GBP</option>
+        </select>
+        <label for="to">To:</label>
+        <select name="to" id="to">
+          <option value="EUR">EUR</option>
+          <option value="USD">USD</option>
+          <option value="GBP">GBP</option>
+        </select>
+      </div>
+      <div>
+        <p>
+          <label for="amount">Amount:</label>
+          <input type="text" id="amount" value="0" />
+        </p>
+      </div>
+      <div>
+        <p>
+          <button type="button" id="submit">Convert</button>
+        </p>
+      </div>
+    </form>
+    <div class="">
+      <p id="result"></p>
+    </div>
+    <script src="/src/index.ts"></script>
   </body>
 </html>

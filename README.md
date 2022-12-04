@@ -1,1 +1,1 @@
-# currencyc
+# Currency Converter Project
